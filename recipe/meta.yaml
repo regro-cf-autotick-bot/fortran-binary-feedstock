@@ -1,5 +1,5 @@
 {% set name = "fortran-binary" %}
-{% set version = "1.0.7" %}
+{% set version = "1.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: "ede187ae19feab26d71ee762c550d5321511f668c0ac21b58154e6d228c4ca5b"
+  sha256: "0dfa6f5ed4f407129facdd3a5e110706bab6a965a4481354675661cc9e0bf665"
 
 build:
   number: 0
